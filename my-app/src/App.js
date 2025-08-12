@@ -21,7 +21,7 @@ import Homecare from './Components/Pages/Homecare';
 import Logging from './Components/Pages/Logging';
 import Resource from './Components/Pages/Resource';
 import NotificationAlert from './Components/Pages/NotificationAlert';
-
+import Signup from './Components/Pages/Signup';
 
 
 
@@ -45,6 +45,13 @@ const router = createBrowserRouter([
    
   
   },
+  {
+  path:"/Sign",
+  element:<div>
+    <Navbar/>
+    <Signup/>
+    </div>,
+},
 {
     path:"/footer",
     element:<div>
